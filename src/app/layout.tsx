@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
-import { Playwrite_IS } from "next/font/google";
+import { Playball } from "next/font/google";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -13,10 +13,10 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-const playwriteIS = Playwrite_IS({
-  variable: "--font-playwrite-is",
-  weight: ["100", "400"], // Tentukan bobot yang ingin digunakan
+const playball = Playball({
+  variable: "--font-playball",
   subsets: ["latin"],
+  weight: "400",
 });
 
 export const metadata: Metadata = {
@@ -32,7 +32,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} ${playwriteIS.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} ${playball.variable} antialiased`}
       >
         {children}
       </body>

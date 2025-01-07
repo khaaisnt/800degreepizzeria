@@ -9,7 +9,7 @@ export default function Hero() {
     >
       <div className="absolute inset-0 bg-black/30"></div>
       <div className="absolute w-full top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-center">
-        <h1 className="md:text-[100px] text-[40px] font-semibold text-skinColor special-header">
+        <h1 className="md:text-[110px] text-[40px] font-semibold text-skinColor special-header">
           Pizza
         </h1>
         <h2 className="uppercase font-bold md:text-[110px] text-[50px] tracking-widest">

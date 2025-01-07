@@ -3,5 +3,5 @@
 @tailwind utilities;
 
 .special-header {
-  font-family: var(--font-playwrite-is), sans-serif;
+  font-family: var(--font-playball), sans-serif;
 }

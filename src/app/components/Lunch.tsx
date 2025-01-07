@@ -34,7 +34,7 @@ export default function Lunch() {
             <button className='uppercase py-2 px-6 bg-primaryRed hover:bg-red-700 duration-200 text-white font-semibold tracking-widest'>all specials</button>
         </div>
         <div>
-            <Image data-aos="fade-up" src={LunchImage} alt='lunch' className='rounded-full hidden md:block w-[480px]' />
+            <Image src={LunchImage} alt='lunch' className='rounded-full hover:scale-125 duration-300 hidden md:block w-[480px]' />
         </div>
     </div>
   )
